@@ -1,10 +1,18 @@
 
 **LEARN ENCRYPTION THROUGH WEB BASED DESIGN**
 
-Clone the repo and run
+Clone the repo
+
+
 Open the folder on ur local machine in the Terminal
+
+
 **npm install**
+
+
 **npm run start**
+
+
 
 After open the index.html file in your favorite browser
 
