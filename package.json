@@ -1,0 +1,21 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp --mode production",
+    "start": "wp --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-merge": "^6.0.1",
+    "webpack-nano": "^1.1.1",
+    "webpack-plugin-serve": "^1.6.0"
+  },
+  "dependencies": {
+  }
+}
