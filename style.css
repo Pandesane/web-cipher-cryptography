@@ -1,5 +1,4 @@
-
-:root{
+:root {
   box-sizing: border-box;
   font-family: sans-serif;
 
@@ -14,76 +13,73 @@
   --blue-900: hsl(240, 100%, 95%);
   --blue-950: hsl(240, 100%, 98%);
 }
-
-* +*, ::before, ::after {
+body {
+  margin: 0px;
+}
+* + *,
+::before,
+::after {
   box-sizing: inherit;
 }
 
+.container {
+  /* background-color: red; */
+  width: 100vw;
+}
 
-
-
-form{
+form {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-
 }
 
 form > * + * {
   margin-top: 10px;
 }
 
-input[type=text]{
+input[type="text"] {
   border: 1px solid var(--blue-500);
   outline: none;
   border-radius: 5px;
-  color:var(--blue-500);
+  color: var(--blue-500);
   box-shadow: 1px 1px 3px 5px rgba(0, 0, 255, 0.012);
   font-size: 24px;
   padding: 20px;
-
-
 }
-input[type=text]:focus{
-  outline:none;
+input[type="text"]:focus {
+  outline: none;
   box-shadow: 1px 1px 3px 5px rgba(0, 0, 255, 0.15);
 }
 
-input[type=submit]{
+input[type="submit"] {
   border: 1px solid var(--blue-500);
   color: var(--blue-500);
-  background-color: var(--blue-950);
+  background-color: white;
   border-radius: 999px;
   margin-top: 20px;
   font-size: 16px;
   padding: 5px;
   /* width: max-content; */
-
 }
-input[type=submit]:hover{
-  background-color: var(--blue-900);
-}
-input[type=submit]:active{
+input[type="submit"]:hover {
   background-color: var(--blue-950);
 }
+input[type="submit"]:active {
+  background-color: white;
+}
 
-
-.cipher{
-  /* background-color: blue; */
-  width: 20rem;
+.cipher {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-.cipher-box{
-  width: 100vw;
+.cipher-box {
   display: flex;
-  /* background-color: red; */
-  justify-content: center ;
+  justify-content: center;
 }
 
-h1{
+h1 {
   font-style: italic;
   display: flex;
   justify-content: center;
@@ -95,21 +91,28 @@ h1{
   -webkit-text-fill-color: transparent; */
 }
 
-.encrypted_text{
+.encrypted_text {
   margin-top: 20px;
   padding: 16px;
   border: 2px solid blue;
   border-radius: 10px;
   font-style: italic;
-  display: flex;
-  justify-content: center;
   color: blue;
-  /* text-decoration: underline; */
 }
 
-@media screen and (min-width: 640px){
-  .encrypted-output{
-    width: 100vw;
-    border: 10px solid red;
+
+select {
+  color: var(--blue-500);
+  outline: none;
+  border: 1px solid var(--blue-500);
+  border-radius: 5px;
+  background-color: white;
+  padding: 8px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 640px) {
+  .encrypted-output {
+    /* width: 100vw; */
   }
 }

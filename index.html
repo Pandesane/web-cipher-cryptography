@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,39 @@
 
 
 </head>
+
 <body>
-  <h1>Hello Cipher!</h1>
-  <div class="cipher-box">
-    <div class="cipher">
-      <form id="encryption-form">
-        <!-- <select name="action" id="">
-          <option value="encrypt">Encrypt</option>
-          <option value="decrypt">Decrypt</option>
-        </select> -->
-        <label for="cipher">Encrypt</label>
-        <input type="text" name="word" id="cipher">
-        <input type="submit" value="Encrypt">
-      </form>
+  <main class="container">
+    <h1>Hello Cipher!</h1>
+    <div class="cipher-box">
+      <div class="cipher">
+        <form id="encryption-form">
+          <select name="action" id="encryption-type">
+            <option value="c">Cipher Encryption</option>
+            <option value="m">Military Encryption</option>
+          </select>
+
+
+          <select name="action" id="encryption-method">
+            <option value="encrypt">Encrypt</option>
+            <option value="decrypt">Decrypt</option>
+          </select>
+          <input type="text" name="word" id="cipher">
+          <input type="submit" value="Encrypt" id="submit-button">
+        </form>
+      </div>
+
+
+    </div>
+
+    <div class="encrypted-output">
+      <div class="encrypted_text"></div>
     </div>
 
 
-  </div>
-  <div class="encrypted-output">
-    <div class="encrypted_text"></div>
-  </div>
+  </main>
+
   <script src="./dist/main.js"></script>
 </body>
+
 </html>
