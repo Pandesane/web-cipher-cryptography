@@ -15,7 +15,7 @@ Open the folder on ur local machine in the Terminal
 
 
 
-[EncryptionDemo](springgreen-owl-551692.hostingersite.com)
+<a href="https://springgreen-owl-551692.hostingersite.com/" target="_blank">Encryption Demo Site</a>
 
 
 
