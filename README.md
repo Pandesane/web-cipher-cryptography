@@ -15,7 +15,7 @@ Open the folder on ur local machine in the Terminal
 
 
 
-[EncryptionDemo]springgreen-owl-551692.hostingersite.com
+[EncryptionDemo](springgreen-owl-551692.hostingersite.com)
 
 
 
